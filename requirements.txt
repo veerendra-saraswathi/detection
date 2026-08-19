@@ -1,0 +1,10 @@
+numpy>=1.24
+opencv-python-headless>=4.8
+Pillow>=10.0
+tqdm>=4.66
+ultralytics>=8.2
+torch>=2.1
+torchvision>=0.16
+matplotlib>=3.8
+pyyaml>=6.0
+rich>=13.0

@@ -1,0 +1,15 @@
+path: data/custom
+train: images/train
+val: images/val
+
+nc: 7
+
+names:
+  0: Building
+  1: Truck
+  2: Car
+  3: Person
+  4: Armored_Vehicle
+  5: Bus
+  6: Motorcycle
+  

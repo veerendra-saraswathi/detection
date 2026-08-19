@@ -1,0 +1,18 @@
+names:
+  0: Building
+  1: Truck
+  2: Car
+  3: Person
+  4: Armored_Vehicle
+  5: Bus
+  6: Motorcycle
+
+thresholds:
+  Building: 0.40
+  Truck: 0.45
+  Car: 0.40
+  Person: 0.35
+  Armored_Vehicle: 0.50
+  Bus: 0.40
+  Motorcycle: 0.40
+  

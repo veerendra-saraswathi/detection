@@ -1,0 +1,49 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment / secrets
+.env
+.env.*
+
+# ML / training outputs
+runs/
+wandb/
+*.pt
+*.pth
+*.onnx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local datasets / generated image data
+data/thermal_kaist/images/
+data/thermal_kaist/visible/
+data/thermal_kaist/preview/
+data/thermal_kaist/*.cache
+data/thermal_kaist/**/*.cache
+
+# macOS metadata anywhere
+**/.DS_Store
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
