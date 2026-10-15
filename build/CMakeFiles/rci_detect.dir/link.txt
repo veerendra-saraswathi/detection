@@ -1,0 +1,2 @@
+/usr/bin/ar qc librci_detect.a CMakeFiles/rci_detect.dir/src/detect.cpp.o
+/usr/bin/ranlib librci_detect.a

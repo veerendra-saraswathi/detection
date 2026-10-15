@@ -1,0 +1,4 @@
+/Users/veerendrabidarkota/detection/build/CMakeFiles/rci_detect.dir
+/Users/veerendrabidarkota/detection/build/CMakeFiles/rci_detect_demo.dir
+/Users/veerendrabidarkota/detection/build/CMakeFiles/edit_cache.dir
+/Users/veerendrabidarkota/detection/build/CMakeFiles/rebuild_cache.dir
