@@ -48,3 +48,7 @@ python scripts/demo_cascade_vs_yolo.py --image data/thermal_kaist/images/train/t
 ```
 
 `RCI_DETECT_LIB` overrides the library path. The C demo still links the static archive.
+## Known limitations (current POC run)
+- On KAIST thermal_02048.jpg the cascade boxes appear in the upper part of the frame (y ≈ 8–72) while ground-truth objects are lower (y ≈ 167–254). This is inside the C++ scale/contrast logic.
+- Cascade scores are heuristic and low (~0.11–0.19).
+- YOLO11n is the unmodified COCO model.
