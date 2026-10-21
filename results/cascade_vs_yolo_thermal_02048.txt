@@ -1,0 +1,32 @@
+image: data/thermal_kaist/images/train/thermal_02048.jpg shape=(512, 640, 3) dtype=uint8
+
+=== cascade ===
+cascade stages: candidates 19  before_nms 19  kept 8  propose 9.641 ms  verify 0.003 ms  nms 0.015 ms
+
+Model          : librci_detect.dylib
+Inference time : 9.7 ms
+Detections     : 8
+------------------------------------------------------------------------
+ID   Class                Conf        x       y       w       h
+------------------------------------------------------------------------
+1    Person              0.186    376.0    24.0    36.0    72.0
+2    Car                 0.158    328.0    72.0    53.0    21.0
+3    Person              0.150     24.0    24.0    24.0    48.0
+4    Truck               0.147    328.0    72.0    43.0    21.0
+5    Person              0.146    384.0    56.0    24.0    48.0
+6    Truck               0.140    368.0    72.0    43.0    21.0
+7    Person              0.137     48.0     8.0    24.0    48.0
+8    Person              0.115    328.0    56.0    24.0    48.0
+------------------------------------------------------------------------
+
+=== yolo ===
+[YOLODetector] Loading model: yolo11n.pt
+[YOLODetector] Model loaded. Classes available: 80
+
+Model          : yolo11n.pt
+Inference time : 1232.2 ms
+Detections     : 0
+------------------------------------------------------------------------
+ID   Class                Conf        x       y       w       h
+------------------------------------------------------------------------
+------------------------------------------------------------------------
